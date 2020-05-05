@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
               alertDialog = alBuilder.create();
               alertDialog.show();*/
 
-            /*TextView textView = new TextView(MainActivity.this);
+           /* TextView textView = new TextView(MainActivity.this);
             textView.setText("HElllo");
                 Dialog dialog = new Dialog(MainActivity.this);
-                dialog.addContentView(textView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+                dialog.setContentView(R.layout.activity_screen_2);
                 dialog.show();*/
             }
         });
