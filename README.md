@@ -23,7 +23,7 @@ reopen (from background or icon click)
 
 * From one activity to another activity (clicking on Home button of device) -> onResume() - onPause() -> onStop().
 -- from Background to reopen app again 
--> onResume() - onPause() -> onStop() -> onRestart() -> onStart() -> onResume().
+-> onRestart() -> onStart() -> onResume() - onPause() -> onStop() -> onRestart() -> onStart() -> onResume().
 
 * (Dialog box is shown in the foreground of present activity excluding AlertDialog & DialogFragment)
 -> onResume() - onPause() -> onResume()...
